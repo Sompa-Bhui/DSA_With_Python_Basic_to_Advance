@@ -1,0 +1,30 @@
+What is a Programming Language?
+Ans:- A programming language is a formal language that provides instructions for a computer to execute. 
+  It's how humans communicate with computers to create software, applications, and other technology..
+
+  There are basically two types of programming language :
+  1) High Level Programming Language (HLL)
+  2) Low Level Programming Language (LLL)
+
+  # Computer understand only Binary Language / Assembly Language/ Low Level Programming Language
+  # High Level Language:- Which is write by humans
+
+  # High Level to Low Level Language: [Compiler/ interpreter]
+Compiler:- It converts all code by once. [Give Error at once]
+Interpreter:- It converts all code by line line. [Give Error line by line as well as] 
+
+  ADVANTAGES:--
+  Compiler use by cpp
+  Interpreter used by python...
+
+|  Feature              |      Compile                          |    Interpreter                           |
+| --------------------- | -------------------------------------- | --------------------------------------- |
+|    **Work**           | Pura code ek saath convert karta hai   | Code ko line-by-line execute karta hai  |
+|    **Speed**          | Fast (execution time)                  | Slow (execution time)                   |
+|    **Error Handling** | Sab errors baad mein dikhata hai       | Pehli error pe hi ruk jata hai          |
+|    **Output**         | Ek alag **executable file** banata hai | Koi file nahi, seedha code chalaata hai |
+|     **Example**        | C, C++, Java (compilation step)        | Python, JavaScript                      |
+
+
+
+  
