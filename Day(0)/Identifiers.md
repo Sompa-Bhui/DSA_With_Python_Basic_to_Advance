@@ -12,7 +12,7 @@ Other kinds include **function names**, **class names**, **structure names**, et
 
 ## ✅ Valid Identifier Examples
 ```
-name = "Riya"               #'name' is an identifier (variable)
+name = "Moni"               #'name' is an identifier (variable)
 
 total_marks = 95            #valid identifier with underscore
 
