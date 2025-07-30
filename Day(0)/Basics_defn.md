@@ -129,7 +129,9 @@ Encapsulation
 
 📦 Extensive Libraries (Very Supportive Libraries)
 
-🌍 Where We Use Python
+
+## 🌍 Where We Use Python
+
 🌐 Web Development
 
 🕸️ Web Scraping
