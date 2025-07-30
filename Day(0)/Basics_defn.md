@@ -162,3 +162,54 @@ Encapsulation
 
 🖼️ Image Processing
 
+
+# ⚠️ Disadvantages of Python
+
+Although Python is a powerful and widely used language, it has several limitations that may impact certain use cases:
+
+---
+
+## 🔻 1. Slower Execution Speed
+- **Reason:** Python is an interpreted language and not compiled to native machine code.
+- **Impact:** Slower performance compared to compiled languages like C, C++, or Java, especially in CPU-bound tasks.
+
+---
+
+## 🔻 2. High Memory Usage
+- **Reason:** Dynamic typing and built-in data structures (e.g., lists, dictionaries) use more memory.
+- **Impact:** Not ideal for applications where memory optimization is critical, such as mobile or embedded systems.
+
+---
+
+## 🔻 3. Limited Mobile and Browser App Support
+- **Reason:** Weak native support for mobile platforms and no integration with browsers.
+- **Impact:** Rarely used for mobile app development or client-side web development (unlike Swift, Kotlin, or JavaScript).
+
+---
+
+## 🔻 4. Runtime Errors
+- **Reason:** Dynamically typed — types are checked at runtime, not compile time.
+- **Impact:** Bugs may appear unexpectedly during execution if not properly tested.
+
+---
+
+## 🔻 5. Global Interpreter Lock (GIL)
+- **Reason:** CPython uses the GIL to manage memory access.
+- **Impact:** Prevents true multithreading in CPU-bound operations, limiting parallelism.
+
+---
+
+## 🔻 6. Packaging and Dependency Issues
+- **Reason:** Inconsistent packaging ecosystem, especially with packages that depend on native C extensions.
+- **Impact:** Can lead to version conflicts and complex environment setup in larger projects.
+
+---
+
+## 🔻 7. Not Suitable for Low-Level Programming
+- **Reason:** High-level abstractions and automatic memory management.
+- **Impact:** Less control over system hardware and memory — not ideal for writing device drivers or operating systems.
+
+---
+
+> 💡 **Tip:** Despite these drawbacks, Python remains an excellent choice for rapid development, data science, scripting, and automation.
+
