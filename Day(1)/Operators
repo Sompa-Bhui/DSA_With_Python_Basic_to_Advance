@@ -1,1 +1,24 @@
+## ✅ The 7 Standard Types of Operators in Python
+
+1. **Arithmetic Operators**  
+   Used for basic mathematical operations like addition, subtraction, multiplication, etc.
+
+2. **Assignment Operators**  
+   Used to assign values to variables.
+
+3. **Comparison (Relational) Operators**  
+   Used to compare two values and return `True` or `False`.
+
+4. **Logical Operators**  
+   Used to combine conditional statements.
+
+5. **Identity Operators**  
+   Used to compare the memory location of two objects.
+
+6. **Membership Operators**  
+   Used to check if a value is a member of a sequence (like list, tuple, string, etc).
+
+7. **Bitwise Operators**  
+   Used to perform operations at the binary level.
+
 
