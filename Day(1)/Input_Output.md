@@ -47,7 +47,13 @@ To display something, we use the `print()` function.
 ```python
 print("Welcome to Python!")
 ```
-You can print multiple things using commas:
+You can print multiple things using commas:(but it will print on same line)
+
+* full_name = "Sompa Bhui"
+* age = 21
+* address = "Jamshedpur"
+* print(full_name, age, address, sep="\n")
+* if we use sep = "\n" the it will be print different line.
 
 ```python
 name = "Sompa"
