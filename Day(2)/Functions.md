@@ -178,3 +178,39 @@ print(add(2, 3))  # Output: 5
 | One-line function        | `lambda x: x * 2`        |
 
 
+## Parameter & Arguments:-
+
+### ✅ Parameter 
+A **parameter** is a variable in the function definition.
+
+It acts as a **placeholder** for the value that will be passed in when the function is called.
+
+📌 *Think of it as a label for the input expected by the function.*
+```python
+def greet(name):  # 'name' is a parameter
+    print(f"Hello, {name}!")
+```
+## ✅ Parameter
+
+A **parameter** is a variable in the function definition.
+
+It acts as a **placeholder** for the value that will be passed in when the function is called.
+
+📌 *Think of it as a label for the input expected by the function.*
+```python
+greet("Sompa")  # 'Sompa' is the argument
+```
+```python
+def greet(name):  # "name" is a **parameter**
+    print("Hello", name)
+```
+greet("Sompa")      # "Sompa" is an **argument**
+
+## 📊 Summary Table
+
+| Term      | Where it Appears           | What it Represents              |
+|-----------|----------------------------|---------------------------------|
+| Parameter | In the function definition | A placeholder name for input    |
+| Argument  | In the function call       | The actual value passed in      |
+
+
