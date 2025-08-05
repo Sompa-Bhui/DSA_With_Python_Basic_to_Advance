@@ -35,7 +35,7 @@ def greet(name):
 ### 🧪 Example:
 ```python
 greet("Sompa")      # Output: Hello Sompa
-greet("Biplav")   # Output: Hello Biplab
+greet("Biplab")   # Output: Hello Biplab
 ```
 
 ## 📌 3. Function that Returns a Value
