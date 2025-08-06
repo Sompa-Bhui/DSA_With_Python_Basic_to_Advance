@@ -131,5 +131,5 @@ print(result)
 | Logical           | `if a > 0 and b < 5:`                    |
 | Nested `if`       | `if a > 0: if b > 0:`                    |
 | Ternary Operator  | `"Yes" if x > 0 else "No"`               |
-
+--
 
