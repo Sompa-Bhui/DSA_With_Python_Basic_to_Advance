@@ -23,6 +23,7 @@ text = "Python"
 print(type(text))  # <class 'str'>
 ```
 ## 3. String Indexing & Slicing
+* Indexing means its position number,,.  Example: "Python"[0] → 'P'
 
 * Indexing: Starts at 0 (forward) and -1 (backward).
 
