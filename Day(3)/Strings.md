@@ -25,11 +25,29 @@ print(type(text))  # <class 'str'>
 ## 3. String Indexing & Slicing
 * Indexing means its position number,,.  Example: "Python"[0] → 'P'
 
+* Index helps to access Character.
+
 * Indexing: Starts at 0 (forward) and -1 (backward).
 
 * Slicing syntax: string[start:end:step]
 
 * End index is exclusive.
+
+* str[strting_idx : ending_idx] #Ending idx is not included
+
+  ```python
+  str = "VITBhopal"
+  str[1:4] #ITB
+  str[:4] is same as [0:4]
+  str[1:] is same as str[1:len(str)]
+  ```
+* Negative Index
+* Apple
+  ```python
+  str = "Apple"
+  str[-3:-1] is "pl  #[Ending idx is not include here, -1 is not include]
+  ```
+
 ```python
 text = "Python"
 print(text[0])     # P
@@ -75,7 +93,14 @@ txt = "Python is awesome"
 print("Python" in txt)   # True
 print("Java" not in txt) # True
 ```
-## 8. Common String Methods
+## 8. Common String Methods / String Functions
+
+* str = "I am a coder."
+* str.endswith("er.")  #returns true if string ends with substr
+* str.capitalize()  #capitalize 1st char
+* str.replace(old, new)  #replaces all occurrences of old to new
+* str.find(word)  #returns 1st index of 1st occurrences
+* str.count("am") # count the occurrence of substr
 
 | Method              | Description                                           |
 |---------------------|-------------------------------------------------------|
