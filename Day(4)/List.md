@@ -104,30 +104,22 @@ print("cherry" not in fruits) # True
 * String :-Im-Mutuable(Unchangeable)
 
 ### List Slicing 
-```python
-list_name[starting_idx : ending_idx] #ending idx is not included
-marks = [87, 64, 33, 95, 76]
-marks[1:4] is [64, 33, 95]
-marks[1: ] is same as marks[1: len(marks)]
-marks[-3 : -1] is [33, 95]
-```
+* list_name[starting_idx : ending_idx] #ending idx is not included
+* marks = [87, 64, 33, 95, 76]
+* marks[1:4] is [64, 33, 95]
+* marks[1: ] is same as marks[1: len(marks)]
+* marks[-3 : -1] is [33, 95]
 
 ## List Methods:-
-```python
-list = [2, 1, 3]
-list.append(4)  #adds one element at the end [2,1,3,4] --> This is called mutating the list.
-list.sort()     #sort the ascending order  [1, 2, 3]
-list.sort(reverse=True)   #sorts in descending order [3, 2, 1]
-list.reverse()  #reverse list  [3, 1, 2]
-list.insert(idx, el)  #insert element at index -> Similer to the append, but its add values any particular idx
-```
-
-## List Methods
-```python
-list = [2, 1, 3, 1]
-list.remove(1)  #remove first occurrence of element [2,3,1]
-list.pop(idx)  #remove elemet at particular idx
-```
+* list = [2, 1, 3]
+* list.append(4)  #adds one element at the end [2,1,3,4] --> This is called mutating the list.
+* list.sort()     #sort the ascending order  [1, 2, 3]
+* list.sort(reverse=True)   #sorts in descending order [3, 2, 1]
+* list.reverse()  #reverse list  [3, 1, 2]
+* list.insert(idx, el)  #insert element at index -> Similer to the append, but its add values any particular idx
+* list = [2, 1, 3, 1]
+* list.remove(1)  #remove first occurrence of element [2,3,1]
+* list.pop(idx)  #remove elemet at particular idx
 
 
 
