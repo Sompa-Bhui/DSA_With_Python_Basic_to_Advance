@@ -116,3 +116,18 @@ So, when you give the address (28.61, 77.23), the map returns "Delhi" 🚏
 ---
 
 ## Summary:-
+A built-in data type that lets us create im-mutable sequencs of values.
+
+```python
+tup = (87, 64, 33,95,76)   #tup[0], tup[1]..
+tup[0]=43    #Not allowed in python
+```
+* tup1 = ()
+* tup2 = (1,)
+* tup3 = (1,2,3)
+
+### Tuples Methods:-
+tup = (2,1,3,1)
+
+* tup.index(el)   #returns index of first occurrence  tup.index(1) is 1
+* tup.count(el)   #counts total occurrences tup.count(1) is 2
