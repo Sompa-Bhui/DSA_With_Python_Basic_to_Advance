@@ -92,13 +92,33 @@ print(squares)  # {0, 1, 4, 9, 16, 25}
 --- 
 
 ## Summary:-
+* Set is the collection of the unordered items.
+* Each element in the set must be unique and im-mutable.
+```python
+nums = {1,2,3,4}
+set2 = {1,2,2,2}
+#repered elements stored only once, so it resove to {1,2}
+```
+```pyhton
+null_set = set()   #empty set syntex
+```
 
+### Set Methods:-
+* set.add    #adds an element
+* set.remove  #removes the element
+* set.clear   #empties the set
+* set.pop     #removes a random value
 
+## NOTES:
+#### Sets -> Mutable
+#### Set's Elemets -> Im-mutable
 
+* Unhashable->set, dict, tuple
+* hashable -> list
 
-
-
-
+### Set Methods:-
+* set1.union(set2)  #combines both values & returns new
+* set1.intersection(set2)   #combines common values & return new
 
 
 
