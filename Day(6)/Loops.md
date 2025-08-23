@@ -11,7 +11,7 @@ while condition:
 
 ## Break and Continue:-
 
-### Break:
+### Break:-
 Used to terminate the loop when encountered.
 
 ### Continue:
