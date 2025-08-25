@@ -141,9 +141,51 @@ else:
 | **Syntax** | `for var in sequence:`        | `while condition:`               |
 | **Example** | `for i in range(5):`         | `while x < 5:`                   |
 
+# ⚖️ For Loop vs While Loop
+
+## 🔹 For Loop  
+
+✅ **Best when:**  
+- You know how many times you want to run.  
+- You are iterating over a sequence (**list, tuple, string, set, dictionary**).  
+- You want cleaner, more readable code.  
+
+👉 **Example:**  
+
+```python
+for i in range(5):  
+    print(i)   # 0 1 2 3 4
+```
+
+## 🔹 While Loop  
+
+✅ **Best when:**  
+- You don’t know the exact number of iterations.  
+- Loop depends on a condition (**user input, sensor value, etc.**).  
+- Useful for infinite loops (**servers, games, waiting for events**).  
+
+👉 **Example:**  
+
+```python
+password = ""
+while password != "python123":
+    password = input("Enter password: ")
+print("Access Granted ✅")
+```
+
+# 📌 Simple Rule of Thumb
+
+- **Use `for` loop** → when working with a sequence or a fixed range.  
+- **Use `while` loop** → when working with conditions that are not fixed in advance.  
+
+# ⚡ If you misuse them:
+
+- Using **`for` instead of `while`** → code may become confusing.  
+- Using **`while` instead of `for`** → you might end up in an infinite loop by mistake.  
+
 ---
 
-## Summary:-
+## Summary:
 
 
 ## Loops in Python
