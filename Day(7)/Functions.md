@@ -183,6 +183,65 @@ hello()
 ```
 
 ## Summary
+Block of statements that perform a specific task.
+
+```python
+def func_name(param1, param2..):   #Function Defination
+    #somework
+    return
+func_name(arg1, arg2...)   #function call
+```
+
+```python
+def sum(a, b):
+    s = a+b
+    return s
+print(aum(2,3))
+```
+
+### There are basically 2 types of Functions:
+#### 1) Built-in Functions
+* print()
+* len()
+* type()
+* range()
+
+#### 2) User defined Function  --> user defined function written by programmer
+```python
+def add(a, b):
+    return a + b
+```
+* This add() is a user-defined function, created by us.
+* It adds two numbers a and b and returns the result.
+* It’s not built-in.
+
+### Example(1): Greet Function
+```python
+# User-defined function
+def greet(name):
+    """
+    This function takes a name as input
+    and returns a greeting message.
+    """
+    return f"Hello, {name}!"
+
+# Calling the function
+message = greet("Rahul")
+print(message)  # Output: Hello, Rahul!
+```
+
+### Example(2): Add Two Numbers
+``` python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)  # Output: 8
+```
+
+## Default Parameters
+Assigning a defaut value to parameter, which is used when no arguments is passed.
+
 
 ## ✅ Quick Summary
 
