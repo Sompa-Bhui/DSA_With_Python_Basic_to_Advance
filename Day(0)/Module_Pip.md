@@ -42,6 +42,17 @@ Modules help us:
      print(response.status_code)
      ```
 
+## 🔹 Third-party Modules Example:
+
+These need to be installed using pip:
+
+- **flask** → lightweight web framework  
+- **django** → full-featured web framework  
+- **numpy** → numerical computing  
+- **pandas** → data analysis  
+- **requests** → HTTP requests  
+
+
 ---
 
 ## 🔹 Example Usage
